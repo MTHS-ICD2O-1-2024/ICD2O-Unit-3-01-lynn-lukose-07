@@ -27,5 +27,5 @@ function calculateAreaOfTrapezoid() {
 
   // output
   document.getElementById("area").innerHTML =
-    "The area is: " + areaOfTrapezoid + " mm²"
+    "The area is: " + areaOfTrapezoid.toFixed(2) + " mm²"
 }

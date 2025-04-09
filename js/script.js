@@ -12,13 +12,13 @@
  */
 function calculateAreaOfTrapezoid() {
   // input
-  const aBaseOfTrapezoid = parseInt(
+  const aBaseOfTrapezoid = parseFloat(
     document.getElementById("a-base-of-trapezoid").value
   )
-    const bBaseOfTrapezoid = parseInt(
+    const bBaseOfTrapezoid = parseFloat(
     document.getElementById("b-base-of-trapezoid").value
   )
-  const heightOfTrapezoid = parseInt(
+  const heightOfTrapezoid = parseFloat(
     document.getElementById("height-of-trapezoid").value
   )
 
